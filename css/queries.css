@@ -1,0 +1,81 @@
+@media (max-width: 48em) {
+  .sidebar {
+    width: 6.2rem;
+    padding: 1rem;
+  }
+
+  .sidebar h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sidebar h3::before,
+  .sidebar h3::after {
+    display: none;
+  }
+
+  .side-nav ul li a span {
+    display: none;
+  }
+
+  .header .search .search-field:focus {
+    width: 16rem;
+  }
+
+  .txt-c-mobile {
+    text-align: center;
+  }
+
+  .block-mobile {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .wrapper {
+    grid-template-columns: minmax(20rem, 1fr);
+    margin: 0 1rem;
+    gap: 1rem;
+  }
+
+  .welcome .avatar {
+    margin-left: 0;
+  }
+
+  .welcome .body > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .tickets .box {
+    width: 100%;
+  }
+
+  .latest-news .news-row .label {
+    margin: 1rem auto;
+    width: fit-content;
+  }
+
+  .last-project ul::before {
+    height: 90%;
+  }
+
+  .settings-page {
+    grid-template-columns: minmax(20rem, 1fr);
+    margin: 0 1rem;
+    gap: 1rem;
+  }
+
+  .backup-control .servers {
+    flex-wrap: wrap;
+  }
+
+  .profile-page .avatar-box {
+    border-right: none;
+  }
+
+  .profile-page .overview {
+    flex-direction: column;
+  }
+}
